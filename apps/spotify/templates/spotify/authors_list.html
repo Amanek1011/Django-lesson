@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Страница с авторами</h1>
+{% for author in authors%}
+<p>Author: {{ author.name }} {{author.surname}}</p>
+<p> Album count: {{ author.album_count}}</p>
+<img src="{{author.image.url }}" alt="{{author.name}}" width="200" height="200">
+{% endfor %}
+</body>
+</html>
