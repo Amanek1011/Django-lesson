@@ -24,4 +24,6 @@ def about(request):
     return render(request, 'about.html')
 
 def album(request):
-    return render(request, 'album.html')
+    authors = Author.objects.all()
+    return render(request, 'album.html', {'authors': authors})
+
