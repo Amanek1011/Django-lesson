@@ -3,5 +3,9 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.10 (PT_04_PROJECT)" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (Spotify) (2)" project-jdk-type="Python SDK" />
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (Django-lesson)" project-jdk-type="Python SDK" />
+>>>>>>> da0b40f956e8dda35aa1370c65bc5b515daa0b13
 </project>
